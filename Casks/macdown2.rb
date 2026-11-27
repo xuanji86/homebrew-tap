@@ -4,8 +4,8 @@
 # notarized apps). Scripts/release.sh substitutes the two @...@ placeholders below (version, dmg sha256) and writes
 # build/release/<version>/macdown2.rb; copy that to Casks/macdown2.rb in the tap.
 cask "macdown2" do
-  version "0.3.1"
-  sha256 "a8e1c633ec1d514fcbe17b387cfa9a82d28019874895e7d47603b356df704585"
+  version "0.3.2"
+  sha256 "c2482801e5f2bc196c17ddc4181bbd34a825c2f8eafd54d8d2e748772e55e35b"
 
   url "https://github.com/xuanji86/MacDown2.0/releases/download/v#{version}/MacDown2-#{version}.dmg"
   name "MacDown2.0"
